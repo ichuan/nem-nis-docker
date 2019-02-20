@@ -7,4 +7,4 @@ VOLUME /opt/nem
 
 WORKDIR /opt/package/nis
 # /opt/package/nix.runNis.sh
-ENTRYPOINT ["java", "-Xms512M", "-Xmx1G", "-cp", ".:./*:../libs/*", "org.nem.deploy.CommonStarter"]
+ENTRYPOINT ["java", "-Xms1G", "-Xmx2G", "-cp", ".:./*:../libs/*", "org.nem.deploy.CommonStarter"]
